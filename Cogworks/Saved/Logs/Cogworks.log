@@ -1,4 +1,4 @@
-﻿Log file open, 04/12/18 19:47:53
+﻿Log file open, 04/13/18 13:29:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Cogworks
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1014078278) SRandInit(-1014078278).
+LogInit: Display: RandInit(-1593672885) SRandInit(-1593672885).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.299764
+LogStats: Stats thread started at 0.509769
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -191,826 +191,254 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.12-23.47.57:742][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.12-23.47.57:742][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.12-23.47.57:772][  0]LogInit: Computer: DESKTOP-ROG3L5A
-[2018.04.12-23.47.57:772][  0]LogInit: User: Ashley
-[2018.04.12-23.47.57:772][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.12-23.47.57:772][  0]LogInit: High frequency timer resolution =1.945313 MHz
-[2018.04.12-23.47.57:772][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.04.12-23.47.57:772][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.12-23.47.57:772][  0]LogMemory: Process Physical Memory: 274.28 MB used, 274.28 MB peak
-[2018.04.12-23.47.57:772][  0]LogMemory: Process Virtual Memory: 269.94 MB used, 269.94 MB peak
-[2018.04.12-23.47.57:772][  0]LogMemory: Physical Memory: 8492.13 MB used,  7758.26 MB free, 16250.39 MB total
-[2018.04.12-23.47.57:772][  0]LogMemory: Virtual Memory: 682.77 MB used,  7758.26 MB free, 134217728.00 MB total
-[2018.04.12-23.47.58:348][  0]LogInit: Using OS detected language (en-US).
-[2018.04.12-23.47.58:348][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.12-23.47.58:354][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.12-23.47.59:444][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.12-23.48.00:782][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.12-23.48.00:935][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
-[2018.04.12-23.48.00:935][  0]LogD3D11RHI:       2020/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.12-23.48.00:958][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2018.04.12-23.48.00:958][  0]LogD3D11RHI:       128/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.04.12-23.48.00:974][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.12-23.48.00:974][  0]LogD3D11RHI:       0/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.12-23.48.00:974][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.12-23.48.01:010][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.12-23.48.01:011][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
-[2018.04.12-23.48.01:011][  0]LogWindows: EnumDisplayDevices:
-[2018.04.12-23.48.01:012][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2018.04.12-23.48.01:014][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.04.12-23.48.01:014][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.04.12-23.48.01:014][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.12-23.48.01:014][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
-[2018.04.12-23.48.01:014][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.12-23.48.01:014][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.12-23.48.01:014][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
-[2018.04.12-23.48.01:079][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.12-23.48.01:108][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.12-23.48.01:114][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Intermediate/Shaders/WorkingDirectory/19732/).
-[2018.04.12-23.48.01:115][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ashley/AppData/Local/Temp/UnrealShaderWorkingDir/937570AC400F03B602A424905DBD5505/'.
-[2018.04.12-23.48.01:115][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.12-23.48.04:207][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.12-23.48.04:438][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.12-23.48.04:756][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.12-23.48.05:144][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.12-23.48.05:570][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.12-23.48.05:841][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.12-23.48.06:047][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.12-23.48.06:211][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.12-23.48.06:364][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.12-23.48.06:526][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.12-23.48.06:691][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.12-23.48.06:873][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.12-23.48.07:123][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.12-23.48.07:372][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.12-23.48.07:765][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.12-23.48.07:765][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.12-23.48.07:931][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.12-23.48.08:096][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.12-23.48.08:353][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.12-23.48.08:436][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.12-23.48.08:613][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.12-23.48.08:792][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.12-23.48.08:995][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.12-23.48.09:187][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.12-23.48.09:187][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.12-23.48.11:439][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.12-23.48.11:609][  0]LogDerivedDataCache: Loaded boot cache 0.17s 78MB C:/Users/Ashley/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.12-23.48.11:610][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ashley/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.04.12-23.48.11:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.12-23.48.11:610][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.12-23.48.11:611][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.12-23.48.11:611][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.12-23.48.11:642][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.12-23.48.11:660][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ashley/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.12-23.48.11:681][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.12-23.48.11:683][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.12-23.48.11:685][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.12-23.48.11:685][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.12-23.48.12:505][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.12-23.48.13:535][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.12-23.48.13:724][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.12-23.48.13:725][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.12-23.48.13:725][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.12-23.48.13:725][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.12-23.48.13:725][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.12-23.48.13:790][  0]LogNetVersion: Cogworks , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 56569423)
-[2018.04.12-23.48.14:207][  0]LogAssetRegistry: FAssetRegistry took 0.0334 seconds to start up
-[2018.04.12-23.48.15:699][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.198067 seconds
-[2018.04.12-23.48.15:711][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.04.12-23.48.15:711][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.04.12-23.48.15:711][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.12-23.48.15:979][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.12-23.48.27:282][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.12-23.48.27:421][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.12-23.48.30:075][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.12-23.48.32:077][  0]SourceControl: Source control is disabled
-[2018.04.12-23.48.32:077][  0]SourceControl: Source control is disabled
-[2018.04.12-23.48.32:318][  0]SourceControl: Source control is disabled
-[2018.04.12-23.48.32:553][  0]SourceControl: Source control is disabled
-[2018.04.12-23.48.36:011][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.12-23.48.37:277][  0]LogOcInput: OculusInput pre-init called
-[2018.04.12-23.48.38:237][  0]LogEngine: Initializing Engine...
-[2018.04.12-23.48.38:241][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.04.12-23.48.38:709][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.12-23.48.38:710][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.12-23.48.39:284][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.12-23.48.39:304][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.12-23.48.39:342][  0]LogInit: FAudioDevice initialized.
-[2018.04.12-23.48.39:467][  0]LogDerivedDataCache: Saved boot cache 0.12s 78MB C:/Users/Ashley/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.12-23.48.39:488][  0]LogInit: Texture streaming: Enabled
-[2018.04.12-23.48.40:205][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.12-23.48.41:168][  0]LogInit: Transaction tracking system initialized
-[2018.04.12-23.48.42:639][  0]BlueprintLog: New page: Editor Load
-[2018.04.12-23.48.46:138][  0]LocalizationService: Localization service is disabled
-[2018.04.12-23.48.48:810][  0]LogConsoleResponse: Display: 
-[2018.04.12-23.48.49:230][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.12-23.48.49:230][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.12-23.48.49:230][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.12-23.48.50:111][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/' took 0.02s
-[2018.04.12-23.48.53:816][  0]SourceControl: Source control is disabled
-[2018.04.12-23.48.53:820][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.18/FeaturePacks/StarterContent.upack)
-[2018.04.12-23.48.53:832][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.04.12-23.48.53:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.04.12-23.48.53:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.04.12-23.48.53:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.04.12-23.48.53:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.04.12-23.48.53:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.04.12-23.48.53:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.04.12-23.48.53:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.04.12-23.48.54:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.04.12-23.48.54:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.04.12-23.48.54:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.04.12-23.48.54:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.04.12-23.48.54:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.04.12-23.48.54:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.04.12-23.48.54:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.04.12-23.48.54:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.04.12-23.48.54:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.04.12-23.48.54:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.04.12-23.48.54:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Fire01.uasset"
-[2018.04.12-23.48.54:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.04.12-23.48.54:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.04.12-23.48.54:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.04.12-23.48.54:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Light01.uasset"
-[2018.04.12-23.48.54:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.04.12-23.48.54:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Light02.uasset"
-[2018.04.12-23.48.54:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.04.12-23.48.54:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.04.12-23.48.54:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.04.12-23.48.54:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.04.12-23.48.54:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.04.12-23.48.54:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.04.12-23.48.54:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.04.12-23.48.54:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.04.12-23.48.54:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.04.12-23.48.54:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Steam01.uasset"
-[2018.04.12-23.48.54:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.04.12-23.48.54:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.04.12-23.48.54:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.04.12-23.48.54:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.04.12-23.48.54:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.04.12-23.48.54:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.04.12-23.48.54:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.04.12-23.48.54:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.04.12-23.48.54:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.04.12-23.48.54:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.04.12-23.48.54:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.04.12-23.48.54:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.04.12-23.48.54:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.04.12-23.48.54:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.04.12-23.48.54:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.04.12-23.48.54:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.04.12-23.48.54:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.04.12-23.48.55:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.04.12-23.48.55:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.04.12-23.48.55:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.04.12-23.48.55:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.04.12-23.48.55:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.04.12-23.48.55:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Maps/StarterMap.umap"
-[2018.04.12-23.48.55:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.04.12-23.48.55:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.04.12-23.48.55:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.04.12-23.48.55:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.04.12-23.48.55:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.04.12-23.48.55:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.04.12-23.48.55:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.04.12-23.48.55:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.04.12-23.48.55:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.04.12-23.48.55:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.04.12-23.48.55:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.04.12-23.48.55:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.04.12-23.48.55:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.04.12-23.48.55:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.04.12-23.48.55:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.04.12-23.48.55:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.04.12-23.48.55:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.04.12-23.48.55:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.04.12-23.48.55:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.04.12-23.48.55:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.04.12-23.48.55:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.04.12-23.48.55:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.04.12-23.48.56:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.04.12-23.48.56:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.04.12-23.48.56:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.04.12-23.48.56:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.04.12-23.48.56:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.04.12-23.48.56:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.04.12-23.48.56:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.04.12-23.48.56:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.04.12-23.48.56:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.04.12-23.48.56:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.04.12-23.48.56:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.04.12-23.48.56:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.04.12-23.48.56:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.04.12-23.48.56:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.04.12-23.48.56:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.04.12-23.48.56:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.04.12-23.48.56:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.04.12-23.48.56:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.04.12-23.48.56:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.04.12-23.48.56:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.04.12-23.48.56:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.04.12-23.48.56:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.04.12-23.48.56:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.04.12-23.48.56:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.04.12-23.48.56:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.04.12-23.48.56:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.04.12-23.48.56:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.04.12-23.48.56:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.04.12-23.48.56:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.04.12-23.48.56:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.04.12-23.48.56:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.04.12-23.48.56:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.04.12-23.48.56:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.04.12-23.48.56:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.04.12-23.48.56:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.04.12-23.48.56:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.04.12-23.48.56:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.04.12-23.48.56:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.04.12-23.48.57:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.04.12-23.48.57:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.04.12-23.48.57:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.04.12-23.48.57:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.04.12-23.48.57:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.04.12-23.48.57:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_Door.uasset"
-[2018.04.12-23.48.57:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.04.12-23.48.57:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.04.12-23.48.57:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.04.12-23.48.57:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.04.12-23.48.57:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.04.12-23.48.57:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.04.12-23.48.57:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.04.12-23.48.57:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.04.12-23.48.57:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.04.12-23.48.57:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.04.12-23.48.57:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.04.12-23.48.57:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.04.12-23.48.57:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.04.12-23.48.57:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.04.12-23.48.57:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.04.12-23.48.57:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.04.12-23.48.57:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.04.12-23.48.57:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.04.12-23.48.57:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.04.12-23.48.57:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.04.12-23.48.57:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.04.12-23.48.57:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.04.12-23.48.57:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.04.12-23.48.57:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.04.12-23.48.57:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.04.12-23.48.57:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.04.12-23.48.57:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.04.12-23.48.57:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.04.12-23.48.57:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.04.12-23.48.57:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.04.12-23.48.57:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.04.12-23.48.57:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.04.12-23.48.57:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.04.12-23.48.57:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.04.12-23.48.57:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.04.12-23.48.57:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.04.12-23.48.57:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.04.12-23.48.58:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.04.12-23.48.58:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.04.12-23.48.58:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.04.12-23.48.58:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.04.12-23.48.58:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.04.12-23.48.58:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.04.12-23.48.58:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.04.12-23.48.58:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.04.12-23.48.58:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.04.12-23.48.58:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.04.12-23.48.58:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.04.12-23.48.58:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.04.12-23.48.58:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.04.12-23.48.58:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.04.12-23.48.58:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.04.12-23.48.58:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.04.12-23.48.58:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.04.12-23.48.58:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.04.12-23.48.58:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.04.12-23.48.58:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.04.12-23.48.58:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.04.12-23.48.58:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.04.12-23.48.58:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.04.12-23.48.58:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.04.12-23.48.59:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.04.12-23.48.59:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.04.12-23.48.59:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.04.12-23.48.59:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.04.12-23.48.59:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.04.12-23.48.59:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.04.12-23.48.59:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.04.12-23.48.59:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.04.12-23.48.59:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.04.12-23.48.59:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.04.12-23.48.59:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.04.12-23.48.59:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.04.12-23.48.59:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.04.12-23.48.59:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.04.12-23.48.59:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.04.12-23.48.59:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.04.12-23.48.59:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.04.12-23.48.59:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.04.12-23.48.59:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.04.12-23.49.00:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.04.12-23.49.00:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.04.12-23.49.00:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.04.12-23.49.00:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.04.12-23.49.00:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.04.12-23.49.00:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.04.12-23.49.00:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.04.12-23.49.00:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.04.12-23.49.00:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.04.12-23.49.00:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.04.12-23.49.00:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.04.12-23.49.00:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.04.12-23.49.00:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.04.12-23.49.00:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.04.12-23.49.00:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.04.12-23.49.00:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.04.12-23.49.00:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.04.12-23.49.00:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.04.12-23.49.00:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.04.12-23.49.00:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.04.12-23.49.00:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.04.12-23.49.00:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.04.12-23.49.00:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.04.12-23.49.00:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.04.12-23.49.00:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.04.12-23.49.00:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.04.12-23.49.00:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.04.12-23.49.00:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.04.12-23.49.00:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.04.12-23.49.01:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.04.12-23.49.01:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.04.12-23.49.01:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.04.12-23.49.01:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.04.12-23.49.01:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.04.12-23.49.01:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.04.12-23.49.01:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.04.12-23.49.01:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.04.12-23.49.01:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.04.12-23.49.01:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.04.12-23.49.01:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.04.12-23.49.01:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.04.12-23.49.01:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.04.12-23.49.01:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.04.12-23.49.01:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.04.12-23.49.01:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.04.12-23.49.01:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.04.12-23.49.01:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.04.12-23.49.01:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.04.12-23.49.01:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.04.12-23.49.01:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.04.12-23.49.01:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.04.12-23.49.01:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.04.12-23.49.01:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.04.12-23.49.01:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.04.12-23.49.01:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.04.12-23.49.01:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.04.12-23.49.01:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.04.12-23.49.01:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.04.12-23.49.01:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.04.12-23.49.01:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.04.12-23.49.02:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.04.12-23.49.02:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.04.12-23.49.02:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.04.12-23.49.02:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.04.12-23.49.02:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.04.12-23.49.02:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.04.12-23.49.02:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.04.12-23.49.02:478][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.04.12-23.49.02:706][  0]LogSavePackage: Save=46.34ms
-[2018.04.12-23.49.02:706][  0]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Floor_400x400177D71E94D0A4B4999875AAA1663AD25.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.04.12-23.49.02:723][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.04.12-23.49.02:723][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.04.12-23.49.02:740][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.12-23.49.02:741][  0]LightingResults: New page: Lighting Build
-[2018.04.12-23.49.02:915][  0]MapCheck: New page: Map Check
-[2018.04.12-23.49.02:915][  0]LightingResults: New page: Lighting Build
-[2018.04.12-23.49.04:212][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.04.12-23.49.04:230][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.12-23.49.04:251][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.12-23.49.04:413][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 161.445ms to complete.
-[2018.04.12-23.49.04:413][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.673
-[2018.04.12-23.49.04:717][  0]LogCollectionManager: Loaded 0 collections in 0.004335 seconds
-[2018.04.12-23.49.04:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Collections/' took 0.01s
-[2018.04.12-23.49.04:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/Developers/Ashley/Collections/' took 0.01s
-[2018.04.12-23.49.04:922][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/Collections/' took 0.01s
-[2018.04.12-23.49.04:922][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2018.04.12-23.49.04:937][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2363 classes and 519 folders.
-[2018.04.12-23.49.05:254][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.04.12-23.49.05:380][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.04.12-23.49.05:746][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.04.12-23.49.05:815][  0]LogSlate: Took 0.000492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.12-23.49.05:820][  0]LogSlate: Took 0.000877 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.12-23.49.05:859][  0]LogSlate: Took 0.021104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.12-23.49.06:164][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.04.12-23.49.06:658][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.04.12-23.49.06:658][  0]LogLoad: (Engine Initialization) Total time: 76.18 seconds
-[2018.04.12-23.49.06:658][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.12-23.49.06:659][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.04.12-23.49.07:501][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.12-23.49.08:383][  3]LogAssetRegistry: Asset discovery search completed in 54.1982 seconds
-[2018.04.12-23.49.08:386][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.04.12-23.49.08:386][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
-[2018.04.12-23.50.52:724][527]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Gameplay/Framework/Pawn/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.12-23.51.56:794][802]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Gameplay/Framework/GameMode/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.12-23.52.08:602][ 10]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Animation/AnimBlueprints/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.12-23.52.51:938][166]LogUObjectGlobals: Warning: Failed to find object 'Object None.LevelToolbarPlay'
-[2018.04.12-23.53.17:910][841]LogWindows: LaunchURL https://docs.unrealengine.com/latest/INT/Videos/index.html
-[2018.04.12-23.54.10:761][ 26]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.12-23.54.25:626][331]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/UserGuide/Components/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.12-23.55.15:428][706]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part1/IWBE_Tutorial_Part1_Stage5_01.png' error.
-[2018.04.12-23.55.15:429][706]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part1/IWBE_Tutorial_Part1_Stage5_01.png
-[2018.04.12-23.55.36:028][348]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Tutorial/InWorldBlueprintEditing/TutorialAssets/whatYouAreMaking.png' error.
-[2018.04.12-23.55.36:028][348]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Tutorial/InWorldBlueprintEditing/TutorialAssets/whatYouAreMaking.png
-[2018.04.12-23.55.43:423][574]LogSlate: Took 0.012741 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.12-23.56.39:287][281]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part1/IWBE_Tutorial_Part1_Stage11_01.png' error.
-[2018.04.12-23.56.39:287][281]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part1/IWBE_Tutorial_Part1_Stage11_01.png
-[2018.04.12-23.57.11:109][251]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Stage0_01.png' error.
-[2018.04.12-23.57.11:109][251]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Stage0_01.png
-[2018.04.12-23.57.11:110][251]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Trans_01.png' error.
-[2018.04.12-23.57.11:110][251]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Trans_01.png
-[2018.04.12-23.58.18:009][883]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Stage1_01.png' error.
-[2018.04.12-23.58.18:009][883]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Stage1_01.png
-[2018.04.12-23.58.38:661][486]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Stage2_01.png' error.
-[2018.04.12-23.58.38:661][486]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Stage2_01.png
-[2018.04.12-23.58.38:661][486]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Step6.png' error.
-[2018.04.12-23.58.38:661][486]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Step6.png
-[2018.04.12-23.59.25:868][535]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Stage3_01.png' error.
-[2018.04.12-23.59.25:869][535]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Stage3_01.png
-[2018.04.13-00.00.13:455][956]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Stage4_01.png' error.
-[2018.04.13-00.00.13:455][956]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part2/IWBE_Tutorial_Part2_Stage4_01.png
-[2018.04.13-00.00.38:507][632]LogMaterial: Missing cached shader map for material M_smoke_subUV_blackbody, compiling. 
-[2018.04.13-00.01.02:232][272]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage0_01.png' error.
-[2018.04.13-00.01.02:232][272]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage0_01.png
-[2018.04.13-00.01.07:405][417]LogSlate: Took 0.000382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.13-00.01.26:739][942]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage1_01.png' error.
-[2018.04.13-00.01.26:739][942]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage1_01.png
-[2018.04.13-00.01.51:887][628]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage2_01.png' error.
-[2018.04.13-00.01.51:887][628]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage2_01.png
-[2018.04.13-00.02.09:107][119]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage3_01.png' error.
-[2018.04.13-00.02.09:108][119]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage3_01.png
-[2018.04.13-00.02.16:468][299]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.13-00.02.19:794][392]LogMaterial: Missing cached shader map for material BasicAsset02, compiling. 
-[2018.04.13-00.04.58:005][670]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
-[2018.04.13-00.04.59:284][670]LogSlate: Took 0.006881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.13-00.04.59:526][671]LogRenderer: Reallocating scene render targets to support 1548x1052 Format 10 NumSamples 1 (Frame:1).
-[2018.04.13-00.05.55:045][640]LogSavePackage: Save=261.20ms
-[2018.04.13-00.05.55:045][640]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/ThirdPersonExampleMap_Auto181EC3BF64DFB3741C084319888B7116A.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
-[2018.04.13-00.05.55:049][640]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
-[2018.04.13-00.05.55:058][640]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.335
-[2018.04.13-00.05.55:058][640]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.335
-[2018.04.13-00.05.55:064][640]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Blueprints/Assets/Actor_Blueprint] ([1] browsable assets)...
-[2018.04.13-00.05.55:150][640]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Blueprints/Assets/Actor_Blueprint.Actor_Blueprint]
-[2018.04.13-00.05.55:150][640]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Blueprints/Assets/Actor_Blueprint]
-[2018.04.13-00.05.55:201][640]LogSavePackage: Save=45.57ms
-[2018.04.13-00.05.55:201][640]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Actor_Blueprint_Auto193CB94C6481E459943B392BAA552E700.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Game/StarterContent/Blueprints/Assets/Actor_Blueprint_Auto1.uasset'
-[2018.04.13-00.05.55:205][640]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Game/StarterContent/Blueprints/Assets/Actor_Blueprint_Auto1.uasset
-[2018.04.13-00.05.55:205][640]LogFileHelpers: Auto-saving content packages took 0.145
-[2018.04.13-00.06.29:083][366]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.13-00.06.36:929][446]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/BP_HowTo/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.13-00.06.48:635][565]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Resources/ContentExamples/Blueprints/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.13-00.07.43:162][422]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/UserGuide/Types/Interface/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.13-00.08.35:370][501]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/Editor/UIComponents/Details/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.13-00.10.01:215][938]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/Editor/UIComponents/Toolbar/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.13-00.11.08:931][207]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
-[2018.04.13-00.11.51:224][469]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage0_01.png' error.
-[2018.04.13-00.11.51:225][469]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage0_01.png
-[2018.04.13-00.11.51:227][469]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage0_01.png' error.
-[2018.04.13-00.11.51:227][469]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage0_01.png
-[2018.04.13-00.12.04:365][780]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage1_01.png' error.
-[2018.04.13-00.12.04:365][780]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage1_01.png
-[2018.04.13-00.12.09:206][912]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage2_01.png' error.
-[2018.04.13-00.12.09:206][912]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage2_01.png
-[2018.04.13-00.12.11:882][990]LogStreaming: Warning: Failed to read file '../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage3_01.png' error.
-[2018.04.13-00.12.11:882][990]LogSlate: Could not find file for Slate resource: ../../../../../Samples-Content Resources/TUTORIALS/IWBE_Tutorial_Part3/IWBE_Tutorial_Part3_Stage3_01.png
-[2018.04.13-00.12.38:548][781]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2018.04.13-00.15.55:464][197]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.048
-[2018.04.13-00.15.55:470][197]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface] ([1] browsable assets)...
-[2018.04.13-00.15.55:470][197]OBJ SavePackage: Finished generating thumbnails for package [/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface]
-[2018.04.13-00.15.55:519][197]LogSavePackage: Save=18.00ms
-[2018.04.13-00.15.55:519][197]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Tutorial_BP_Interface_Auto23A77C35444136CE89F0FB48465A11B50.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface_Auto2.uasset'
-[2018.04.13-00.15.55:524][197]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface_Auto2.uasset
-[2018.04.13-00.15.55:524][197]LogFileHelpers: Auto-saving content packages took 0.058
-[2018.04.13-00.16.15:879][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.13-00.59.31:397][947]LogEditorViewport: Clicking on Actor (LMB): Actor_Blueprint_C (Actor_Blueprint)
-[2018.04.13-01.02.20:828][651]LogSavePackage: Save=36.76ms
-[2018.04.13-01.02.20:829][651]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Tutorial_BP_InterfaceF8F549654068A4A9B9CA9980ED435031.tmp' to '../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset'
-[2018.04.13-01.02.20:865][651]LogSavePackage: Display: Finished SavePackage ../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_Interface.uasset
-[2018.04.13-01.02.21:113][651]LogSavePackage: Save=78.29ms
-[2018.04.13-01.02.21:114][651]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Actor_BlueprintBE3A4B384EF644093A39319A6A6D1060.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Assets/Actor_Blueprint.uasset'
-[2018.04.13-01.02.21:133][651]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/StarterContent/Blueprints/Assets/Actor_Blueprint.uasset
-[2018.04.13-01.02.21:691][651]LogSavePackage: Save=320.87ms
-[2018.04.13-01.02.21:691][651]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/ThirdPersonExampleMap91F7DE644849A2997D00CA8755865593.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2018.04.13-01.02.21:705][651]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
-[2018.04.13-01.02.21:770][651]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.629
-[2018.04.13-01.02.22:150][651]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.04.13-01.02.22:273][651]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.13-01.02.22:274][651]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.13-01.02.22:848][652]Cmd: QUIT_EDITOR
-[2018.04.13-01.02.22:949][652]LogExit: Preparing to exit.
-[2018.04.13-01.02.23:676][652]LogDirectoryWatcher: A directory notification for 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/' was aborted.
-[2018.04.13-01.02.24:089][652]LogExit: Editor shut down
-[2018.04.13-01.02.24:144][652]LogExit: Transaction tracking system shut down
-[2018.04.13-01.02.24:445][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.04.13-01.02.24:445][652]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/' was aborted.
-[2018.04.13-01.02.24:445][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.04.13-01.02.24:445][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.04.13-01.02.24:445][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.04.13-01.02.24:445][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.04.13-01.02.24:445][652]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.04.13-01.02.24:832][652]LogExit: Object subsystem successfully closed.
-[2018.04.13-01.02.24:876][652]LogD3D11RHI: Shutdown
-[2018.04.13-01.02.24:876][652]LogD3D11RHI: CleanupD3DDevice
-[2018.04.13-01.02.24:884][652]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.04.13-01.02.24:929][652]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
-[2018.04.13-01.02.24:930][652]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (550)
-[2018.04.13-01.02.24:930][652]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2018.04.13-01.02.24:930][652]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.04.13-01.02.24:930][652]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.04.13-01.02.24:930][652]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.04.13-01.02.24:940][652]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.04.13-01.02.24:940][652]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.04.13-01.02.24:940][652]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.04.13-01.02.24:940][652]LogDirectoryWatcher: A directory notification for 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/Collections/' was aborted.
-[2018.04.13-01.02.24:940][652]LogDirectoryWatcher: A directory notification for 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/Developers/Ashley/Collections/' was aborted.
-[2018.04.13-01.02.24:940][652]LogDirectoryWatcher: A directory notification for 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Collections/' was aborted.
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.04.13-01.02.24:941][652]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.04.13-01.02.24:942][652]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.04.13-01.02.24:942][652]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.04.13-01.02.24:942][652]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.04.13-01.02.24:942][652]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.04.13-01.02.24:942][652]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.04.13-01.02.24:942][652]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.04.13-01.02.24:942][652]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.04.13-01.02.24:942][652]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.04.13-01.02.24:942][652]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.04.13-01.02.24:942][652]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.04.13-01.02.24:943][652]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.04.13-01.02.24:944][652]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.04.13-01.02.24:944][652]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.04.13-01.02.24:944][652]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.04.13-01.02.24:944][652]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.04.13-01.02.24:944][652]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.04.13-01.02.24:944][652]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.04.13-01.02.25:223][652]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.04.13-01.02.25:224][652]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.04.13-01.02.25:224][652]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.04.13-01.02.25:224][652]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.04.13-01.02.25:224][652]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.04.13-01.02.25:224][652]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.04.13-01.02.25:224][652]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.04.13-01.02.25:224][652]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.04.13-01.02.25:224][652]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.04.13-01.02.25:224][652]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.04.13-01.02.25:225][652]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.04.13-01.02.25:225][652]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.04.13-01.02.25:225][652]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.04.13-01.02.25:225][652]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.04.13-01.02.25:225][652]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.04.13-01.02.25:225][652]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.04.13-01.02.25:225][652]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.04.13-01.02.25:226][652]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.04.13-01.02.25:227][652]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.04.13-01.02.25:227][652]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.04.13-01.02.25:227][652]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.04.13-01.02.25:227][652]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.04.13-01.02.25:227][652]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.04.13-01.02.25:227][652]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.04.13-01.02.25:282][652]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.04.13-01.02.25:282][652]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.04.13-01.02.25:282][652]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.04.13-01.02.25:282][652]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.04.13-01.02.25:282][652]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.04.13-01.02.25:283][652]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.04.13-01.02.25:283][652]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.04.13-01.02.25:284][652]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.04.13-01.02.25:284][652]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.04.13-01.02.25:284][652]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.04.13-01.02.25:308][652]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.04.13-01.02.25:308][652]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.04.13-01.02.25:308][652]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.04.13-01.02.25:308][652]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.04.13-01.02.25:308][652]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.04.13-01.02.25:308][652]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.04.13-01.02.25:309][652]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.04.13-01.02.25:309][652]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.04.13-01.02.25:309][652]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.04.13-01.02.25:309][652]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.04.13-01.02.25:309][652]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.04.13-01.02.25:309][652]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.04.13-01.02.25:309][652]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.04.13-01.02.25:309][652]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.04.13-01.02.25:310][652]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.04.13-01.02.25:310][652]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.04.13-01.02.25:310][652]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.04.13-01.02.25:310][652]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.04.13-01.02.25:310][652]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.04.13-01.02.25:310][652]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.04.13-01.02.25:489][652]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.04.13-01.02.25:491][652]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.04.13-01.02.25:492][652]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.04.13-01.02.25:492][652]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.04.13-01.02.25:492][652]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.04.13-01.02.25:492][652]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.04.13-01.02.25:492][652]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.04.13-01.02.25:492][652]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.04.13-01.02.25:492][652]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.04.13-01.02.25:492][652]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.04.13-01.02.25:492][652]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.04.13-01.02.25:492][652]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.04.13-01.02.25:493][652]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.04.13-01.02.25:493][652]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.04.13-01.02.25:493][652]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.04.13-01.02.25:493][652]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.04.13-01.02.25:493][652]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.04.13-01.02.25:493][652]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.04.13-01.02.25:493][652]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.04.13-01.02.25:493][652]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.04.13-01.02.25:493][652]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.04.13-01.02.25:494][652]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.04.13-01.02.25:494][652]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.04.13-01.02.25:498][652]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.04.13-01.02.25:499][652]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.04.13-01.02.25:500][652]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.04.13-01.02.25:500][652]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.04.13-01.02.25:500][652]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.04.13-01.02.25:500][652]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.04.13-01.02.25:501][652]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.04.13-01.02.25:501][652]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.04.13-01.02.25:501][652]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.04.13-01.02.25:501][652]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.04.13-01.02.25:502][652]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.04.13-01.02.25:502][652]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.04.13-01.02.25:507][652]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.04.13-01.02.25:507][652]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.04.13-01.02.25:507][652]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.04.13-01.02.25:509][652]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.04.13-01.02.25:509][652]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.04.13-01.02.25:509][652]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.04.13-01.02.25:509][652]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.04.13-01.02.25:510][652]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.04.13-01.02.25:510][652]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.04.13-01.02.25:510][652]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.04.13-01.02.25:510][652]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.04.13-01.02.25:612][652]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.04.13-01.02.25:713][652]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.04.13-01.02.25:713][652]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.04.13-01.02.25:713][652]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.04.13-01.02.25:713][652]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.04.13-01.02.25:713][652]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.04.13-01.02.25:714][652]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.04.13-01.02.25:724][652]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.04.13-01.02.25:724][652]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.04.13-01.02.25:724][652]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.04.13-01.02.25:724][652]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.04.13-01.02.25:733][652]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.04.13-01.02.25:733][652]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.04.13-01.02.25:733][652]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.04.13-01.02.25:733][652]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.04.13-01.02.25:733][652]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.04.13-01.02.25:733][652]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.04.13-01.02.25:740][652]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.04.13-01.02.25:741][652]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.04.13-01.02.25:741][652]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.04.13-01.02.25:741][652]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.04.13-01.02.25:741][652]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.04.13-01.02.25:741][652]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.04.13-01.02.25:741][652]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.04.13-01.02.25:741][652]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.04.13-01.02.25:741][652]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.04.13-01.02.25:742][652]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.04.13-01.02.25:742][652]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.04.13-01.02.25:742][652]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.04.13-01.02.25:742][652]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.04.13-01.02.25:743][652]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.04.13-01.02.25:743][652]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.04.13-01.02.25:743][652]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.04.13-01.02.25:754][652]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.04.13-01.02.25:754][652]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.04.13-01.02.25:754][652]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.04.13-01.02.25:754][652]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.04.13-01.02.25:754][652]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.04.13-01.02.25:754][652]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.04.13-01.02.25:754][652]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.04.13-01.02.25:754][652]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.04.13-01.02.25:777][652]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.04.13-01.02.25:777][652]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.04.13-01.02.25:777][652]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.04.13-01.02.25:777][652]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.04.13-01.02.25:778][652]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.04.13-01.02.25:778][652]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.04.13-01.02.25:778][652]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.04.13-01.02.25:778][652]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.04.13-01.02.25:778][652]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.04.13-01.02.25:837][652]LogDerivedDataCache: Shutdown
-[2018.04.13-01.02.25:837][652]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.04.13-01.02.25:837][652]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.04.13-01.02.25:838][652]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.04.13-01.02.25:838][652]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.04.13-01.02.25:838][652]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.04.13-01.02.25:838][652]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.04.13-01.02.25:838][652]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.04.13-01.02.25:838][652]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.04.13-01.02.25:839][652]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.04.13-01.02.25:839][652]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.04.13-01.02.25:839][652]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.04.13-01.02.25:840][652]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.04.13-01.02.25:840][652]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.04.13-01.02.25:840][652]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.04.13-01.02.25:840][652]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.04.13-01.02.25:840][652]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.04.13-01.02.25:840][652]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.04.13-01.02.25:840][652]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.04.13-01.02.25:840][652]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.04.13-01.02.25:841][652]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.04.13-01.02.25:841][652]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.04.13-01.02.25:841][652]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.04.13-01.02.25:841][652]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.04.13-01.02.25:841][652]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.04.13-01.02.25:841][652]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.04.13-01.02.25:842][652]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.04.13-01.02.25:842][652]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.04.13-01.02.25:842][652]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.04.13-01.02.25:842][652]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.04.13-01.02.25:842][652]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.04.13-01.02.25:842][652]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.04.13-01.02.25:842][652]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.04.13-01.02.25:842][652]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.04.13-01.02.25:842][652]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.04.13-01.02.25:842][652]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.04.13-01.02.25:842][652]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.04.13-01.02.25:843][652]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.04.13-01.02.25:843][652]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.04.13-01.02.25:843][652]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.04.13-01.02.25:843][652]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.04.13-01.02.25:843][652]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.04.13-01.02.25:843][652]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.04.13-01.02.25:843][652]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.04.13-01.02.25:844][652]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.04.13-01.02.25:844][652]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.04.13-01.02.25:844][652]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.04.13-01.02.25:844][652]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.04.13-01.02.25:844][652]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.04.13-01.02.25:845][652]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.04.13-01.02.25:845][652]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.04.13-01.02.25:845][652]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.04.13-01.02.25:845][652]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.04.13-01.02.25:846][652]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.04.13-01.02.25:846][652]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.04.13-01.02.25:846][652]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7A42A2CE-4C95-393C-5AB8-3C99364EE268%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=6d0a27744c469defedecffa2f3784202%7C10aecd4d25d6427aad50fa2c8be0ac4d%7C58b9f25c-abc5-406e-94c7-11a7ecad8b08&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.04.13-01.02.25:865][652]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.04.13-01.02.25:873][652]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.04.13-01.02.25:873][652]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.04.13-01.02.25:873][652]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.04.13-01.02.25:874][652]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.04.13-01.02.25:875][652]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.04.13-01.02.25:875][652]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.04.13-01.02.25:875][652]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.04.13-01.02.25:889][652]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.04.13-01.02.25:889][652]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.04.13-01.02.25:889][652]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.04.13-01.02.25:889][652]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.04.13-01.02.25:889][652]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.04.13-01.02.25:889][652]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.04.13-01.02.25:889][652]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.04.13-01.02.25:889][652]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.04.13-01.02.25:889][652]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.04.13-01.02.25:889][652]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.04.13-01.02.25:889][652]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.04.13-01.02.25:896][652]LogExit: Exiting.
-[2018.04.13-01.02.25:935][652]Log file closed, 04/12/18 21:02:25
+[2018.04.13-17.30.02:923][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.13-17.30.02:923][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.13-17.30.02:978][  0]LogInit: Computer: DESKTOP-ROG3L5A
+[2018.04.13-17.30.02:978][  0]LogInit: User: Ashley
+[2018.04.13-17.30.02:978][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.13-17.30.02:978][  0]LogInit: High frequency timer resolution =1.945313 MHz
+[2018.04.13-17.30.02:979][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.13-17.30.02:979][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.13-17.30.02:980][  0]LogMemory: Process Physical Memory: 275.13 MB used, 275.13 MB peak
+[2018.04.13-17.30.02:980][  0]LogMemory: Process Virtual Memory: 269.94 MB used, 269.94 MB peak
+[2018.04.13-17.30.02:980][  0]LogMemory: Physical Memory: 9152.24 MB used,  7098.14 MB free, 16250.39 MB total
+[2018.04.13-17.30.02:980][  0]LogMemory: Virtual Memory: 682.77 MB used,  7098.14 MB free, 134217728.00 MB total
+[2018.04.13-17.30.03:706][  0]LogInit: Using OS detected language (en-US).
+[2018.04.13-17.30.03:706][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.13-17.30.03:811][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.13-17.30.04:684][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.13-17.30.09:215][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.13-17.30.09:312][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2018.04.13-17.30.09:312][  0]LogD3D11RHI:       2020/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.13-17.30.09:329][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.04.13-17.30.09:329][  0]LogD3D11RHI:       128/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.13-17.30.09:334][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.13-17.30.09:334][  0]LogD3D11RHI:       0/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.13-17.30.09:334][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.13-17.30.09:353][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.13-17.30.09:353][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
+[2018.04.13-17.30.09:353][  0]LogWindows: EnumDisplayDevices:
+[2018.04.13-17.30.09:354][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.04.13-17.30.09:354][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.04.13-17.30.09:355][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.04.13-17.30.09:355][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.13-17.30.09:355][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2018.04.13-17.30.09:355][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.13-17.30.09:355][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.13-17.30.09:355][  0]LogRHI: Texture pool is 1414 MB (70% of 2020 MB)
+[2018.04.13-17.30.09:399][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.13-17.30.09:435][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.13-17.30.09:442][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Intermediate/Shaders/WorkingDirectory/24592/).
+[2018.04.13-17.30.09:442][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ashley/AppData/Local/Temp/UnrealShaderWorkingDir/93C2874F4923C29B779A309BA36C32FE/'.
+[2018.04.13-17.30.09:443][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.13-17.30.13:355][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.13-17.30.13:501][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.13-17.30.13:654][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.13-17.30.13:798][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.13-17.30.13:962][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.13-17.30.14:115][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.13-17.30.14:271][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.13-17.30.14:417][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.13-17.30.14:553][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.13-17.30.14:702][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.13-17.30.14:851][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.13-17.30.15:010][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.13-17.30.15:157][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.13-17.30.15:299][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.13-17.30.15:596][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.13-17.30.15:596][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.13-17.30.15:753][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.13-17.30.15:877][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.13-17.30.16:124][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.13-17.30.16:200][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.13-17.30.16:348][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.13-17.30.16:499][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.13-17.30.16:641][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.13-17.30.16:801][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.13-17.30.16:801][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.13-17.30.18:335][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.13-17.30.18:640][  0]LogDerivedDataCache: Loaded boot cache 0.30s 78MB C:/Users/Ashley/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.13-17.30.18:640][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ashley/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.13-17.30.18:641][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.13-17.30.18:641][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.13-17.30.18:641][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.13-17.30.18:641][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.13-17.30.18:685][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.13-17.30.18:700][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ashley/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.13-17.30.18:724][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.13-17.30.18:729][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.13-17.30.18:757][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.13-17.30.18:757][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.13-17.30.20:053][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.13-17.30.21:262][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.13-17.30.21:390][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.13-17.30.21:391][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.13-17.30.21:391][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.13-17.30.21:391][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.13-17.30.21:391][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.13-17.30.21:499][  0]LogNetVersion: Cogworks , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 56569423)
+[2018.04.13-17.30.22:314][  0]LogAssetRegistry: FAssetRegistry took 0.0337 seconds to start up
+[2018.04.13-17.30.24:365][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.192458 seconds
+[2018.04.13-17.30.24:378][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.13-17.30.24:378][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.04.13-17.30.24:378][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.13-17.30.24:542][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.13-17.30.36:077][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.13-17.30.36:177][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.13-17.30.38:297][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.13-17.30.39:695][  0]SourceControl: Source control is disabled
+[2018.04.13-17.30.39:695][  0]SourceControl: Source control is disabled
+[2018.04.13-17.30.39:871][  0]SourceControl: Source control is disabled
+[2018.04.13-17.30.40:043][  0]SourceControl: Source control is disabled
+[2018.04.13-17.30.42:610][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.13-17.30.43:403][  0]LogOcInput: OculusInput pre-init called
+[2018.04.13-17.30.44:287][  0]LogEngine: Initializing Engine...
+[2018.04.13-17.30.44:292][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.13-17.30.44:996][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.13-17.30.44:996][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.13-17.30.45:404][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.13-17.30.45:425][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.13-17.30.45:457][  0]LogInit: FAudioDevice initialized.
+[2018.04.13-17.30.45:561][  0]LogDerivedDataCache: Saved boot cache 0.10s 78MB C:/Users/Ashley/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.13-17.30.45:586][  0]LogInit: Texture streaming: Enabled
+[2018.04.13-17.30.45:891][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.13-17.30.46:324][  0]LogInit: Transaction tracking system initialized
+[2018.04.13-17.30.47:346][  0]BlueprintLog: New page: Editor Load
+[2018.04.13-17.30.50:453][  0]LocalizationService: Localization service is disabled
+[2018.04.13-17.30.53:187][  0]LogConsoleResponse: Display: 
+[2018.04.13-17.30.54:326][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.13-17.30.54:326][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.13-17.30.54:326][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.13-17.30.54:508][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/' took 0.02s
+[2018.04.13-17.30.58:112][  0]SourceControl: Source control is disabled
+[2018.04.13-17.30.58:113][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.13-17.30.58:115][  0]LightingResults: New page: Lighting Build
+[2018.04.13-17.30.58:269][  0]MapCheck: New page: Map Check
+[2018.04.13-17.30.58:270][  0]LightingResults: New page: Lighting Build
+[2018.04.13-17.30.59:920][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.13-17.30.59:971][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.13-17.30.59:998][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.13-17.31.00:163][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 164.41ms to complete.
+[2018.04.13-17.31.00:163][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.050
+[2018.04.13-17.31.00:261][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.13-17.31.00:262][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.13-17.31.00:586][  0]LogCollectionManager: Loaded 0 collections in 0.004211 seconds
+[2018.04.13-17.31.00:812][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Collections/' took 0.01s
+[2018.04.13-17.31.00:812][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/Developers/Ashley/Collections/' took 0.01s
+[2018.04.13-17.31.00:812][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/Collections/' took 0.01s
+[2018.04.13-17.31.00:812][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.13-17.31.00:831][  0]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 2363 classes and 519 folders.
+[2018.04.13-17.31.01:059][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.13-17.31.02:113][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.13-17.31.02:280][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.13-17.31.02:627][  0]LogSlate: Took 0.010939 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.13-17.31.02:640][  0]LogSlate: Took 0.008822 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.13-17.31.02:660][  0]LogSlate: Took 0.009393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.13-17.31.03:050][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.13-17.31.03:933][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.13-17.31.03:933][  0]LogLoad: (Engine Initialization) Total time: 66.87 seconds
+[2018.04.13-17.31.03:933][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.13-17.31.03:933][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.13-17.31.03:977][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.13-17.31.04:227][  2]LogAssetRegistry: Asset discovery search completed in 41.9361 seconds
+[2018.04.13-17.31.04:231][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.13-17.31.04:231][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000109 seconds (updated 0 objects)
+[2018.04.13-17.31.05:518][ 16]LogSlate: Took 0.018598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.13-17.31.10:082][128]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.13-17.31.10:897][128]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2018.04.13-17.31.13:274][128]LogSlate: Took 0.008281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.13-17.33.27:867][336]LogEditorViewport: Clicking on Actor (LMB): Actor_Blueprint_C (Actor_Blueprint)
+[2018.04.13-17.33.31:924][441]LogSlate: Took 0.010473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.13-17.33.44:803][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.04.13-17.33.48:257][853]LogEditorViewport: Clicking on Actor (LMB): Actor_Blueprint_C (Actor_Blueprint)
+[2018.04.13-17.35.51:217][ 26]LogActorFactory: Actor Factory created Cylinder
+[2018.04.13-17.35.52:624][ 60]LogActorFactory: Actor Factory created Cylinder
+[2018.04.13-17.40.33:155][298]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.13-17.40.35:573][298]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.13-17.40.35:574][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.13-17.40.35:576][298]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 13, 2018, 9:40:35 AM)
+[2018.04.13-17.40.35:577][298]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.04.13-17.40.35:611][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034684s)
+[2018.04.13-17.40.35:613][298]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.13-17.40.35:613][298]LogPlayLevel: PIE: World Init took: (0.002033s)
+[2018.04.13-17.40.35:614][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.037313s)
+[2018.04.13-17.40.35:666][298]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.13-17.40.35:686][298]LogInit: FAudioDevice initialized.
+[2018.04.13-17.40.35:750][298]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-17.40.35:756][298]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.04.13-13.40.35
+[2018.04.13-17.40.35:758][298]LogWorld: Bringing up level for play took: 0.004585
+[2018.04.13-17.40.35:887][298]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.04.13-17.40.35:889][298]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.988
+[2018.04.13-17.40.35:889][298]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.13-17.40.53:230][750]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.13-17.40.53:310][750]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.13-17.40.56:183][823]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CogGenerator)
+[2018.04.13-17.41.12:939][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.04.13-17.41.18:473][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CogGenerator)
+[2018.04.13-17.41.54:531][982]LogRenderer: Reallocating scene render targets to support 1548x1052 Format 10 NumSamples 1 (Frame:1).
+[2018.04.13-17.43.05:601][910]LogSlate: Took 0.010843 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.04.13-17.45.11:706][686]LogSavePackage: Save=48.01ms
+[2018.04.13-17.45.11:706][686]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/CogGenerator_BlueprintA819417042683B0DC7F262B98E1750F5.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Blueprints/CogGenerator_Blueprint.uasset'
+[2018.04.13-17.45.11:719][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Blueprints/CogGenerator_Blueprint.uasset
+[2018.04.13-17.45.37:065][ 65]LogSavePackage: Save=280.35ms
+[2018.04.13-17.45.37:065][ 65]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/ThirdPersonExampleMap_Auto1FBABD35F48AE76C7394940A64A94326E.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.04.13-17.45.37:070][ 65]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.04.13-17.45.37:075][ 65]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.370
+[2018.04.13-17.45.37:075][ 65]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.370
+[2018.04.13-17.55.37:831][193]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.041
+[2018.04.13-17.55.37:836][193]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/CogGenerator_Blueprint] ([1] browsable assets)...
+[2018.04.13-17.55.37:872][193]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/CogGenerator_Blueprint.CogGenerator_Blueprint]
+[2018.04.13-17.55.37:872][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/CogGenerator_Blueprint]
+[2018.04.13-17.55.37:948][193]LogSavePackage: Save=50.65ms
+[2018.04.13-17.55.37:948][193]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/CogGenerator_Blueprint_Auto257758C8C4237945D43E5969634C0D55A.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/CogGenerator_Blueprint_Auto2.uasset'
+[2018.04.13-17.55.37:953][193]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/CogGenerator_Blueprint_Auto2.uasset
+[2018.04.13-17.55.37:953][193]LogFileHelpers: Auto-saving content packages took 0.120
+[2018.04.13-18.13.42:799][912]LogSavePackage: Save=34.64ms
+[2018.04.13-18.13.42:800][912]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/CogGenerator_Blueprint0162AF574A0D6E12D718C7BF13613D60.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Blueprints/CogGenerator_Blueprint.uasset'
+[2018.04.13-18.13.42:809][912]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Blueprints/CogGenerator_Blueprint.uasset
+[2018.04.13-18.13.52:285][ 84]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.13-18.13.52:321][ 84]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.13-18.13.52:321][ 84]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.13-18.13.52:330][ 84]LogPlayLevel: [PlayLevel] Compiling CogGenerator_Blueprint before play...
+[2018.04.13-18.13.53:015][ 84]LogPlayLevel: PlayLevel: Blueprint regeneration took 694 ms (1 blueprints)
+[2018.04.13-18.13.53:016][ 84]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 13, 2018, 10:13:53 AM)
+[2018.04.13-18.13.53:016][ 84]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.04.13-18.13.53:042][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026619s)
+[2018.04.13-18.13.53:044][ 84]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.13-18.13.53:045][ 84]LogPlayLevel: PIE: World Init took: (0.002209s)
+[2018.04.13-18.13.53:045][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029447s)
+[2018.04.13-18.13.53:086][ 84]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.13-18.13.53:105][ 84]LogInit: FAudioDevice initialized.
+[2018.04.13-18.13.53:145][ 84]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-18.13.53:149][ 84]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.04.13-14.13.53
+[2018.04.13-18.13.53:151][ 84]LogWorld: Bringing up level for play took: 0.004169
+[2018.04.13-18.13.53:152][ 84]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.251
+[2018.04.13-18.13.53:153][ 84]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.13-18.14.07:497][479]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.13-18.14.07:575][479]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.13-18.14.11:895][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.04.13-18.14.13:237][631]LogEditorViewport: Clicking on Actor (LMB): CogGenerator_Blueprint_C (CogGenerator_Blueprint)
+[2018.04.13-18.14.20:510][825]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.13-18.14.51:184][ 55]LogSavePackage: Save=273.06ms
+[2018.04.13-18.14.51:184][ 55]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/ThirdPersonExampleMap_Auto390B446E949132A5A748D7791B119461D.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2018.04.13-18.14.51:189][ 55]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2018.04.13-18.14.51:193][ 55]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.354
+[2018.04.13-18.14.51:194][ 55]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.354
+[2018.04.13-18.27.43:176][486]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.04.13-18.27.43:300][488]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Cogworks
+[2018.04.13-18.27.43:301][488]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.04.13-18.27.43:301][488]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.04.13-18.27.43:301][488]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.04.13-18.27.43:307][488]LogTemp: BranchPath = DESKTOP-ROG3L5A/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-ROG3L5A/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.04.13-18.27.43:335][488]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Ashley\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.04.13-18.29.19:043][502]LogSavePackage: Save=265.64ms
+[2018.04.13-18.29.19:043][502]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/ThirdPersonExampleMap85A0E8F9484986210ECB9AA3ACF34E42.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.04.13-18.29.19:057][502]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.04.13-18.29.19:472][502]LogSavePackage: Save=334.92ms
+[2018.04.13-18.29.19:472][502]LogSavePackage: Moving '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Saved/ThirdPersonExampleMap_BuiltDataA2B3736446AFC9E23C47888892FB1C36.tmp' to '../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.04.13-18.29.19:476][502]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Ashley/Documents/GitHub/Cogworks/Cogworks/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
